@@ -59,4 +59,8 @@ public class GameState : MonoBehaviour
 		m_camera = m_Camera;
 	}
 
+	public void StartPlay(){
+		Application.LoadLevel ("MainScene");
+	}
+
 }
